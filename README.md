@@ -1,4 +1,4 @@
-Konfigurasi Azure Entra ID (Azure AD)
+# Konfigurasi Azure Entra ID (Azure AD)
 
 Tambahkan konfigurasi berikut pada file Web.config:
 
@@ -40,6 +40,7 @@ Parameter Description
    - **Redirect URI**
 ```text
 https://yourdomain.com/auth/azure/callback.aspx
+```text
 
 4. Save the following values:
    - ** Application (client) ID
