@@ -38,9 +38,7 @@ Parameter Description
 3. Configure:
    - **Supported account types**
    - **Redirect URI**
-```text
-https://yourdomain.com/auth/azure/callback.aspx
-```text
+```text https://yourdomain.com/auth/azure/callback.aspx
 
 4. Save the following values:
    - ** Application (client) ID
