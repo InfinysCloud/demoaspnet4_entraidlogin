@@ -13,28 +13,14 @@ Tambahkan konfigurasi berikut pada file Web.config:
     <!-- Redirect URL after successful login -->
     <add key="RedirectUri" value="https://yourdomain.com/auth/azure/callback.aspx" />
 </appSettings>
+\
 Parameter Description
-Key	Description
-ClientId	Application (client) ID from Azure Entra ID
-TenantId	Directory (tenant) ID from Azure Entra ID
-ClientSecret	Client Secret generated from Azure App Registration
-RedirectUri	Callback URL after successful authentication
-owin:AutomaticAppStartup	Enables OWIN middleware startup automatically
-Azure Entra ID Setup
-Open Microsoft Azure Portal
-Navigate to:
-Microsoft Entra ID
-App registrations
-New registration
-Configure:
-Supported account types
+## Parameter Description
 
-Redirect URI:
-
-https://yourdomain.com/auth/azure/callback.aspx
-Save the following values:
-Application (client) ID
-Directory (tenant) ID
-Create a Client Secret:
-Certificates & secrets
-New client secret
+| Key | Description |
+|---|---|
+| `ClientId` | Application (client) ID from Azure Entra ID |
+| `TenantId` | Directory (tenant) ID from Azure Entra ID |
+| `ClientSecret` | Client Secret generated from Azure App Registration |
+| `RedirectUri` | Callback URL after successful authentication |
+| `owin:AutomaticAppStartup` | Enables OWIN middleware startup automatically |
